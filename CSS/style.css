@@ -1,0 +1,18 @@
+/*Name= Manoj Belbase
+  Student id= 8903938 */
+  
+/* External CSS for body element*/
+  body
+{
+font: 20px arial, sans-serif;  /*font using shorthand property*/
+background-color: hsla(115, 60%,55%, 0.4); /*BG using HSLA method*/
+height:90vh;  /*Height and width using viewport*/
+width:90vw;
+}
+
+
+h2
+{
+    color: #132;; /*font color using 3-digit hex*/
+    font-size: 1.5rem; /*font size using relative unit*/
+}
