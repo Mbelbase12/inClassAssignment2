@@ -6,8 +6,8 @@
 {
 font: 20px arial, sans-serif;  /*font using shorthand property*/
 background-color: hsla(115, 60%,55%, 0.4); /*BG using HSLA method*/
-height:90vh;  /*Height and width using viewport*/
-width:90vw;
+height:100vh;  /*Height and width using viewport*/
+width:100vw;
 }
 
 
@@ -15,4 +15,41 @@ h2
 {
     color: #132;; /*font color using 3-digit hex*/
     font-size: 1.5rem; /*font size using relative unit*/
+}
+header{
+  background-color: hsla(115, 60%,55%, 0.4);
+}
+main
+{
+  float:left;
+  width:65vw;
+  background-color: hsla(189, 73%, 68%, 0.4);
+}
+aside
+{
+  float:right;
+  width:25vw;
+  background-color: hsla(76, 65%, 64%, 0.4);
+}
+footer{
+  clear:both;
+  background-color: hsla(72, 75%, 73%, 0.4);
+}
+.structural{
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+
+}
+#para1{
+  color:rgb(245, 0, 200);
+}
+#para2{
+  color:rgb(91, 56, 24);
+}
+a:hover{
+  color:aquamarine
+}
+footer p{
+  font-size: .75em;
 }
